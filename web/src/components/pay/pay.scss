@@ -1,0 +1,44 @@
+.payfor{
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+   -webkit-align-items: center;
+   background-color:#F3F2F2;
+   .topp{
+        height:2.28rem;
+        margin-bottom:0;
+        font-size:0.426667rem;
+        line-height:2.28rem;
+        text-align:center;
+        width:10.0rem;border-bottom:1px solid #ccc;
+        position:relative;
+        background-color:#fff;
+             .jtp{position:absolute;left:0.666667rem;top:0.8rem;width:0.44rem;height:0.6rem;background:url(../../assets/img/house/jt.png) no-repeat;}
+    }
+
+    .ddxq{height:1.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.426667rem;padding-left:0.666667rem;line-height:1.44rem;
+    }
+
+    .title2{height:1.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.333333rem;padding-left:0.666667rem;line-height:1.44rem;color:red;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+    }
+
+    .zprice{height:2.666667rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.426667rem;padding-left:0.666667rem;line-height:2.666667rem;}
+
+    .zffs{height:2.666667rem;line-height:2.666667rem;font-weight:bold;width:10.0rem;border-bottom:1px solid #ccc; font-size:0.426667rem;margin-left:0.666667rem;
+
+    }
+
+    .zfb{height:1.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.426667rem;padding-left:0.666667rem;line-height:1.44rem;
+        
+        .checkbox1{float:right;width:0.666667rem;;height:0.8rem;margin:0.266667rem 0.266667rem;display:inline-block;}
+    }
+
+    .wechat{height:1.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.426667rem;padding-left:0.666667rem;line-height:1.44rem;
+
+        .checkbox{float:right;width:0.666667rem;;height:0.8rem;margin:0.266667rem 0.266667rem;display:inline-block;}
+    }
+
+    .zfan{height:2.666667rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;
+        .ljzf{display:block; width:7.186667rem; height:1.213333rem; line-height: 40px; margin:0 auto; border:none; background-color:#E7336E; color:#fff; font-size:30px; margin-bottom:0.066667rem;margin-top:0.56rem;text-align:center;}
+    }
+}

@@ -1,0 +1,293 @@
+.home-page {
+    width: 100%;
+    height: 32.933333rem;
+    .hot-city {
+        position: relative;
+        width: 100%;
+        height: 11.3rem;
+        border-bottom: 0.026667rem solid #ddd;
+        .cover-left {
+            position: absolute;
+            left: 0;
+            top: 0.8rem;
+            width: 0.33rem;
+            height: 9.733333rem;
+            z-index:100;
+            background: #fff;
+        }
+        .cover-right {
+            position: absolute;
+            right: -0.066667rem;
+            top: 0.8rem;
+            width: 0.39rem;
+            height: 9.733333rem;
+            z-index:100;
+            background: #fff;
+        }
+        .hot-title {
+            width: 100%;
+            height: 0.933333rem;
+            margin-top: 0.266667rem;
+            line-height: 0.72rem;
+            font-size: 0.453333rem;
+            text-align: center;
+            color: #333333;
+        }
+        .content1 {
+            position: absolute;
+            width: 30rem;
+            height: 9.733333rem;
+            margin-left: 0.133333rem;
+            li {
+                float: left;
+                width: 4.4rem;
+                height: 4.933333rem;
+                margin-left: 0.277667rem;
+                margin-right: 0.297667rem;
+                a {
+                    display: inline-block;
+                    width: 4.4rem;
+                    height: 3.92rem;
+                    img {
+                        display: inline-block;
+                        width: 4.4rem;
+                        height: 3.92rem;
+                        margin-top: 0;
+                    }
+                    p {
+                        font-size: 0.4rem;
+                        color: #333333
+                    }
+                }
+            }
+        }
+        .dot1 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0.666667rem;
+            padding-top: 0.133333rem;
+            text-align: center;
+            span {
+                display: inline-block;
+                width: 0.213333rem;
+                height: 0.213333rem;
+                background: #ddd;
+                border-radius: 50%;
+            }
+            span.active {
+                width: 0.32rem;
+                background: #FF6766;
+                border-radius: 35%;
+            }
+        }
+    }
+
+    .you-like {
+        position: relative;
+        width: 100%;
+        height: 9.146667rem;
+        border-bottom: 0.026667rem solid #ddd;
+        .like-title {
+            height: 1.173333rem;
+            margin-top: 0.266667rem;
+            line-height: 0.72rem;
+            font-size: 0.453333rem;
+            color: #333;
+            text-align: center;
+        }
+        .content2 {
+            position: absolute;
+            width: 9.2rem;
+            height: 8.0rem;
+            padding-left: 0.466667rem;
+            li {
+                float: left;
+                width: 8.72rem;
+                height: 8.0rem;
+                margin-right: 0.466667rem;
+                position: relative;
+                .like-contain {
+                    display: block;
+                    width: 8.72rem;
+                    height: 6.453333rem;
+                }
+                .house {
+                    display: inline-block;
+                    width: 8.72rem;
+                    height: 5.52rem;
+                    margin-top: 0;
+                }
+                .like {
+                    position: absolute;
+                    right: 0.533333rem;
+                    top: 0.266667rem;
+                    display: inline-block;
+                    width: 0.76rem;
+                    height: 0.76rem;
+                    background: url('../../../assets/img/uncollection.png') no-repeat;
+                }
+                .price {
+                    position: absolute;
+                    left: 0;
+                    bottom: 2.466667rem;
+                    display: inline-block;
+                    width: 2.293333rem;
+                    height: 1.013333rem;
+                    color: #fff;
+                    font-size: 0.746667rem;
+                    background-color: rgba(0,0,0,.68);
+                    span {
+                        font-size: 0.346667rem;
+                    }
+                }
+                .name {
+                    display: block;
+                    width: 7.466667rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 0.453333rem;
+                    color: #333;
+                    border-bottom: 0 none;
+                    margin: 0;
+                    padding: 0;
+                }
+                .location {
+                    display: block;
+                    font-size: 0.346667rem; 
+                    color: #828488;
+                }
+                .evaluate {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    display: block;
+                    width: 100%;
+                    height: 0.666667rem;
+                    img {
+                        display: inline-block;
+                        width: 1.946667rem;
+                        height: 0.293333rem;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    span {
+                        font-size: 0.346667rem;
+                        color: #828488;
+                    }  
+                }
+                .host {
+                    position: absolute;
+                    right: 0;
+                    bottom: 1.066667rem;
+                    display: inline-block;
+                    width: 1.013333rem;
+                    height: 1.013333rem;
+                    border-radius: 50%;
+                }
+                .service {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0.4rem;
+                    width: 1.28rem;
+                    height: 0.453333rem;
+                    padding: 0 0.133333rem;
+                    font-size: 0.293333rem;
+                    color: #3EB3C0;
+                    line-height: 0.426667rem;
+                    text-align: center;
+                    background: white;
+                    border: 0.026667rem solid #3EB3C0;
+                    border-radius: 0.053333rem;
+                }
+            }
+        }
+        
+    }
+
+    .china-city {
+        position: relative;
+        width: 100%;
+        height: 11.3rem;
+        border-bottom: 0.026667rem solid #ddd;
+        margin-bottom: 1.333333rem;
+        .cover-left {
+            position: absolute;
+            left: 0;
+            top: 0.8rem;
+            width: 0.33rem;
+            height: 9.733333rem;
+            z-index:100;
+            background: #fff;
+        }
+        .cover-right {
+            position: absolute;
+            right: -0.066667rem;
+            top: 0.8rem;
+            width: 0.39rem;
+            height: 9.733333rem;
+            z-index:100;
+            background: #fff;
+        }
+        .city-title {
+            width: 100%;
+            height: 0.933333rem;
+            margin-top: 0.266667rem;
+            line-height: 0.72rem;
+            font-size: 0.453333rem;
+            text-align: center;
+            color: #333333;
+        }
+        .content3 {
+            position: absolute;
+            width: 30rem;
+            height: 9.733333rem;
+            margin-left: 0.133333rem;
+            li {
+                float: left;
+                width: 4.4rem;
+                height: 4.933333rem;
+                margin-left: 0.277667rem;
+                margin-right: 0.297667rem;
+                a {
+                    display: inline-block;
+                    width: 4.4rem;
+                    height: 3.92rem;
+                    img {
+                        display: inline-block;
+                        width: 4.4rem;
+                        height: 3.92rem;
+                        margin-top: 0;
+                    }
+                    p {
+                        font-size: 0.4rem;
+                        color: #333333
+                    }
+                }
+            }
+        }
+        .dot3 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0.666667rem;
+            padding-top: 0.133333rem;
+            text-align: center;
+            span {
+                display: inline-block;
+                width: 0.213333rem;
+                height: 0.213333rem;
+                background: #ddd;
+                border-radius: 50%;
+            }
+            span.active {
+                width: 0.32rem;
+                background: #FF6766;
+                border-radius: 35%;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+
+.page_list{
+	position:absolute;
+	left:0;
+	top:0;
+	width:180px;
+	height:800px;
+	text-align:left;
+	border-right:1px solid #ccc;
+	>span{
+		display:block;
+		height:70px;
+		width:100%;
+		background:#27C189;
+	}
+	>li{
+		background:#2D3153;
+		color:#576F99;
+		p{
+			width:60%;
+			margin:0 auto;
+			padding:10px;
+		}
+		ul{
+			li{
+				text-align:left;
+				padding:5px 0 5px 70px;
+				color:#7D93BE;
+				font-size:14px;
+			}
+		}
+	}
+}
+

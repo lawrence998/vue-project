@@ -1,0 +1,54 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 0.213333rem;
+}
+ul,ol{
+    list-style:none;
+}
+select, input { 
+    vertical-align:middle;
+}
+/*防止拖动*/
+textarea { resize:none; } 
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+table { border-collapse:collapse; }
+/*去掉input等聚焦时的蓝色边框*/
+img,input,fieldset,button{
+    border:none;
+    padding:0;margin:0;
+    outline-style:none;
+}
+img{width: 100%;height: 100%;display:block;}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    font-size:1em;
+}
+div,header,nav,main,article,section,aside,footer,figure,figcaption,details,summary{
+    display:block;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    clear:both;
+    zoom:1;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+*{
+    box-sizing:border-box;
+}
+s,i,em{
+    font-style:normal;
+    text-decoration:none;
+}

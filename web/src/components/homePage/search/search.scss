@@ -1,0 +1,26 @@
+.definesearchDiv{
+    position:fixed;
+    width: 100%;
+    padding: 0 0.4rem;
+    top:0.4rem;
+    z-index:1000;
+    a{
+        .search{
+            height: 80px;
+            line-height: 80px;
+            border: 1px solid #DEDEDE;
+            border-radius: 50px;
+            font-size: 34px;
+            text-align: center;
+            background: #F7F7F7;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100%;
+            color:#999;
+            i{
+                font-size:44px;
+            }
+        }
+    }
+    
+}

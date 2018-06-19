@@ -1,0 +1,14 @@
+.regionComponent{width:100%;margin:0 auto;
+    .objRegion{line-height:80px;font-size:28px;position:relative;
+        .bigImg{width:100%;height:6.66666rem;}
+        .intr{font-size:0.48rem;line-height:0.9rem;margin-top:0.26rem;color:#0F0F1E;}
+        .city{line-height:0.39rem;margin-bottom:0.1rem;margin-left:0.25rem;font-size:0.376667rem;color:#9797A6;}
+        p{margin-left:0.26rem;line-height:0.293333rem;font-size:0.366667rem;color:#20202F;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#9797A6;
+            .pl{display:inline-block;width:1.866667rem;height:0.326667rem;vertical-align:middle;margin-bottom:0.126667rem;margin-right:0.04rem;
+            }
+        }
+        .price{padding:0.126667rem 0.266667rem;font-size:36px;background-color:#424251;color:white;position:absolute;top:5.366667rem;left:0;}
+        .price::before{content:'￥';}
+    }
+
+}

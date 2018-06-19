@@ -1,0 +1,29 @@
+.box{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    overflow:hidden;
+    .section{
+        flex:1;
+        overflow-y:auto;
+    }
+}
+
+.home-big{overflow-x: hidden;}
+.box{display:flex;flex-direction: column;position:relative;overflow:hidden;}
+
+.carousel{overflow:hidden;}
+.el-loading-spinner{
+    //height: 200px;
+    .el-icon-loading{
+        font-size:100px;
+    }
+    .el-loading-text{
+        font-size:30px !important;
+        margin: 5px 0 !important;
+    }
+}
+
+
+//.swiper-wrapper{width:50.0rem}

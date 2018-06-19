@@ -1,0 +1,46 @@
+
+.houseSource{
+	padding-left:30px;
+	box-sizing:border-box;
+	.houseSourceList{
+		height:40px;
+		line-height:40px;
+		border-bottom:1px solid #ccc;
+		width:100%;
+		color:#666;
+	}
+}
+
+.tableList{
+	width:100%;
+	// border-bottom:1px solid #ccc;
+	.tblist{
+		tbody{
+			display: block;
+			height:460px;
+			tr{
+				border-bottom:1px solid #ebeef5;
+				td{
+					display:inline-block;
+					vertical-align:middle;
+					overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+					text-align:center;
+					width:85px;
+					padding:12px 0;
+				}
+			}
+		}
+		th{
+			display:inline-block;
+			vertical-align:middle;
+			width:85px;
+			height:50px;
+			line-height:50px;
+			text-align:center;
+		}
+	}
+} 
+
+

@@ -1,0 +1,200 @@
+.order_box{
+    display:flex;
+    height:100%;
+    flex-direction:column;
+}
+.order-top{
+    position:fixed;
+    flex:1;
+    // height:88px;
+    width:100%;
+    padding: 0 24px;
+    background-color:#fff;
+    border-bottom:1px solid #CCC;
+    .order-top-inner{
+        height:88px;
+        .left{
+            height:88px;
+            float:left;
+            span{
+                display:block;
+                // width:45px;
+                height:88px;
+                i{
+                    // display:block;
+                    line-height:88px;
+                    font-size:50px;
+                }
+            }
+        }
+        .center{
+            // float:left;
+            position: absolute;
+            display: block;
+            font-size:36px;
+            left: 40%;
+            width: 40%;
+            line-height:88px;
+            // text-align: center;
+        }
+    }
+}
+.order-bottom{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:98px;
+    line-height:98px;
+    font-size:30px;
+    background-color:#FC6665;
+    button{
+        display:block;
+        height:98px;
+        width: 100%;
+        font-size:28px;
+        color:#F8FFFF;
+        margin: 0 auto;
+        text-align:center;
+        background-color:#FC6665; 
+    }
+}
+.order-main{
+    // flex:1;
+    // overflow-x:hidden;
+    margin-top:88px;
+    // height:85px;
+    // border-bottom:1px solid #ccc;
+    // margin-bottom:98px;
+    .houseItem{
+        display:block;
+        height:160px;
+        padding:24px 0;
+        padding-left:30px;
+        border-bottom:1px solid #ccc;
+        .showIndicator{
+            display:block;
+            height:120px;
+            .ulhouseimg{
+                float:left;
+                width: 180px;
+                height: 120px;
+                vertical-align: middle;
+                display: block;
+                background-color:pink;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .ulhouseinfo{
+                float:left; 
+                display: inline-block;
+                padding-left: 30px;
+                width: 75%;
+                height: 110px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+
+                // height: 60px;
+                // vertical-align: top;
+                .ulhousetitle{
+                    // display: block;
+                    font-size: 30px;
+                    color: #333333;
+                    line-height: 30px;
+                    text-align:left;
+                    // white-space: nowrap;
+                    // overflow: hidden;
+                    // text-overflow: ellipsis;
+                }
+                .ulhouserroominfo{
+                    display: block;
+                    font-size: 26px;
+                    color: #828488;
+                    line-height: 26px;
+                    text-align:left;
+                    margin-top: 16px;
+                }
+                .ulhouseprice{
+                    display: block;
+                    font-size: 30px;
+                    text-align:left;
+                    // line-height: 30px;
+                }
+            }
+        }
+    }
+    
+}
+.select_date,.people_count,.price_count,.checkin,.checkout,.day_conut{
+    padding: 0 30px;
+    font-size: 30px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align:left;
+    input{
+        margin-left:20px;
+        height:100px;
+        font-size:40px;
+        border:1px solid #ccc;
+    }
+}
+.block{
+    // padding: 0 30px;
+    padding:0 130px;    
+    font-size: 30px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align:left;
+    .el-input__inner{
+        width:100%;
+        height:100px;
+        font-size:30px;
+    }
+}
+.people_count_b{
+    margin:0 30px;
+    // height:100px;
+    // line-height:100px;
+    // height:100px;
+    .el-input-number{
+        width:100%;
+        height:100px !important;
+        line-height:100px;
+        .el-input-number__decrease,.el-input-number__increase{
+            width:100px;
+        }
+        .el-input__inner{
+            font-size:30px;
+            height:100px;
+            line-height:100px;
+        }
+    }
+}
+.total-price{
+    margin:0 30px;
+    height:60px;
+    .price_count_left{
+        float:left;
+        height:60px;
+        line-height:60px;
+        font-size:30px;
+    }
+    .price_count_right::before{
+        content:'￥';
+    }
+    .price_count_right{
+        float:right;
+        height:60px;
+        line-height:60px;
+        font-size:60px;
+        color:red;
+    }
+}

@@ -1,0 +1,18 @@
+.releaseEdit .el-dialog{
+  width:700px;
+  height:700px;
+	.el-dialog__footer{
+		position:absolute;
+		right:0;
+		bottom:0;
+	}
+	.el-form-item{
+		margin-bottom:14px;
+	}
+	.el-form{
+		left:40%;
+	}
+	.el-dialog__body{
+		padding:0;
+	}
+}

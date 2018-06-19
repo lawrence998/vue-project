@@ -1,0 +1,43 @@
+.toplist{
+        height:2.28rem;
+        margin-bottom:0;
+        font-size:0.426667rem;
+        line-height:2.28rem;
+        text-align:center;
+        width:10.0rem;border-bottom:1px solid #ccc;
+        position:relative;
+        background-color:#fff;
+        .jtlist{position:absolute;left:0.666667rem;top:0.8rem;width:0.44rem;height:0.6rem;background:url(../../assets/img/house/jt.png) no-repeat;}
+    }
+
+.payment{
+     height:1.04rem;border-bottom:1px solid #ccc;
+
+     .notpaid,.spend{display:inline-block;text-align:center;line-height:1.04rem;font-size:0.333333rem;
+        width:4.96rem;
+     }
+}
+
+.goodslist{height:5.493333rem;
+    
+    .hoteltitle{height:1.8rem;font-size:0.4rem;line-height:1.533333rem;padding-left:0.266667rem;border-bottom:1px solid #ccc;
+
+        .htitle{display:block;font-size:0.333333rem;color:red;height:0.5rem;border-top:1px solid #ccc;}
+    }
+    .checktimes{
+        height:2.4rem;
+
+        .checkin{
+            font-size:0.666667rem;height:2.066667rem;
+
+             .ruzhu{font-size:0.4rem;display:block;height:0.88rem;color:#58bc58;text-align:center;}
+        }
+    }
+
+    .help{height:1.56rem;font-size:0.493333rem;border-bottom:1px solid #ccc;
+
+            .cars{border:1px solid #ccc;display:inline-block;height:1.56rem;float:left;}
+    }
+}
+
+.active{height:1.04rem;border-bottom:1px solid blue;}

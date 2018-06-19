@@ -1,0 +1,30 @@
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.333333rem;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 0.076667rem;
+    background: #fff;
+    .router-link-active {
+      color: #FF6766;
+    }
+    a{
+       display: block;
+       flex: 1;
+       font-size: 0.4rem;
+       i{
+        display: block;
+        font-size: 0.6rem;
+       }
+    }
+}
+
+
+
+
+

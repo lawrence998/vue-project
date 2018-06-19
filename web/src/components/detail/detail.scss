@@ -1,0 +1,304 @@
+.detail_box{
+    display:flex;
+    height:100%;
+    flex-direction:column;
+    // overflow: hidden;
+}
+.top_fiex{
+    position:fixed;
+    flex:1;
+    // height:88px;
+    width:100%;
+    padding: 0 24px;
+    background-color:#fff;
+    border-bottom:1px solid #CCC;
+    z-index:1000;
+    .top_fiex-inner{
+        // height:88px;
+        .left{
+            height:88px;
+            float:left;
+            a{
+                display:block;
+                height:88px;
+                i{
+                    // display:block;
+                    line-height:88px;
+                    font-size:50px;
+                }
+            }
+        }
+        .center{
+            float:left;
+            position: absolute;
+            display: block;
+            font-size:36px;
+            left: 30%;
+            width: 40%;
+            line-height:88px;
+        }
+        .right{
+            float:right;
+            height:88px;
+            a{
+                // display:block;
+                height:88px;
+                i{
+                    // display:block;
+                    height:88px;
+                    line-height:88px;
+                    font-size:50px;
+                }
+            }
+        }
+    }
+}
+
+.bt_fiex{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    // background-color:skyblue;
+    // z-index: 1000;
+    .bt_left,.bt_right{
+        display:flex;
+        width:50%;
+        height:98px;
+        line-height:98px;
+        font-size:30px;
+        background-color:#43B3C1;
+        a{
+            display:block;
+            height:98px;
+            font-size:28px;
+            color:#F8FFFF;
+            margin: 0 auto;
+        }
+    }
+    .bt_right{
+        background-color:#FC6665;
+    }
+}
+
+.main_fiex{
+    flex:1;
+    overflow-x:hidden;
+    margin-top:88px;
+    margin-bottom:98px;
+    .banner{
+        height:500px;
+        background-color:skyblue;
+        position:relative;
+        img{
+            width:100%;
+            height:100%;
+        }
+        .room_price{
+            color: #fff;
+            position: absolute;
+            padding: 0 20px;
+            left: 30px;
+            bottom: 0;
+            line-height: 76px;
+            height: 76px;
+            background: rgba(0,0,0,.68);
+            span{
+                font-size: 50px;
+                margin-top: 8px;
+                margin-right: 4px;
+            }
+        }
+    }
+    .house-detail-user-comment{
+        margin: 50px 0;
+        width: 100%;
+        padding: 0 30px;
+        .house-detail-title{
+            font-size:36px;
+        }
+        .user-name{
+            // position: relative;
+            height: 100px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            .user-name-left{
+                float:left;
+                width:100px;
+                height:100px;
+                // background-color:red;
+                >img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .user-name-right{
+                float:left;
+                margin-left:30px;
+                width:560px;
+                height:100px;
+                // background-color:pink;
+                p{
+                    line-height:100px;
+                    font-size:30px;
+                }
+            }
+        }
+    }
+    .room-type{    
+        // height:298px;
+        // background-color:skyblue;
+        margin:0 30px;
+        border-top:2px solid #ccc;
+        border-bottom:2px solid #ccc;
+        .way{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        .type{
+            height:186px;
+            div{
+                float:left;
+                width:25%;
+                height:186px;
+                font-size:28px;
+                // border-bottom:2px solid #ccc;
+                i{
+                    // display:block;
+                    font-size:48px;
+                    text-align:center;
+                }
+                p{
+                    display:block;
+                    font-size:32px;
+                    padding:28px 0;
+                }
+            }
+        }
+    }
+    .room_comment{
+        margin: 0 30px;
+        border-bottom:1px solid #ccc;
+        h3{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        p{
+            font-size:19px;
+        }
+    }
+    .room_city{
+        margin: 0 30px;
+        border-bottom:1px solid #ccc;
+        h3{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        h4{
+            font-size:24px;
+            margin-bottom:40px;
+        }
+    }
+    .room_beg{
+        margin: 0 30px;
+        border-bottom:1px solid #ccc;
+        h3{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        .room_beg_1{
+            height:88px;
+            i{
+                float:left;
+                display:block;
+                font-size:48px;
+            }
+            p{
+                float:left;
+                display:block;
+                padding-left:20px;
+                font-size:32px;
+            }
+        }
+    }
+    .house-details{
+        margin: 0 30px;
+        border-bottom:1px solid #ccc;
+        h3{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        .house-details-ul{
+            .house-details-li{
+                // float:left;
+                .house-details-div{
+                    padding:16px 0;
+                    height:70px;
+                    .item-title{
+                        font-size:32px;
+                        float:left;
+                    }
+                    i{
+                        padding-left:10px;
+                    }
+                    .item-title-right{
+                        float:right;
+                    }
+                }
+            }
+        }
+    }
+    .room-device{
+        margin: 0 30px;
+        border-bottom:1px solid #ccc;
+        h3{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        .device{
+            // float:left;
+            height:186px;
+            div{
+                float:left;
+                width:25%;
+                height:186px;
+                font-size:28px;
+                i{
+                    // display:block;
+                    font-size:48px;
+                    text-align:center;
+                }
+                p{
+                    display:block;
+                    font-size:32px;
+                    padding:28px 0;
+                }
+            }
+        }
+    }
+    .room-remove{
+        margin: 0 30px;
+        border-bottom:1px solid #ccc;
+        h3{
+            font-size:28px;
+            color:#222222;
+            font-weight:bold;
+            padding:38px 0;
+        }
+        p{
+            font-size:16px;
+            padding-bottom:30px;
+        }
+    }
+}

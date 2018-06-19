@@ -1,0 +1,123 @@
+
+
+
+.el-pagination{
+	padding-left:400px !important;
+}
+
+.houseSource{
+	padding-left:30px;
+	box-sizing:border-box;
+	.houseSourceList{
+		height:40px;
+		line-height:40px;
+		border-bottom:1px solid #ccc;
+		width:100%;
+		color:#666;
+	}
+	ul{
+		margin-top:10px;
+		width:100%;
+		overflow:hidden;
+		li{
+			width:100px;
+			display:inline-block;
+			color:#666;
+			.el-input__inner{
+				height:36px;
+			}
+			.el-button{
+				height:32px;
+				width:50px;
+				vertical-align:middle;
+				padding:0;
+				span{
+					display:block;
+					text-align:center;
+
+				}
+			}
+		}
+		.data_picker{
+			.el-range-editor.el-input__inner{
+				padding:0 10px;
+			}
+		}
+		.citySelect{
+			width:110px;
+			margin-left:10px;
+			.el-input__inner{
+				width:110px;
+				height:36px;
+			}
+		}
+		.areaSelect{
+			width:110px;
+			margin-left:10px;
+			.el-input__inner{
+				width:110px;
+				height:36px;
+			}
+		}
+		.search_in{
+			width:130px;
+			.el-input__inner{
+				width:130px;
+				height:36px;
+			}
+		}
+		.data_picker{
+			width:250px;
+			.block{
+				.el-input__inner{
+					height:36px;
+				}
+			}
+		}
+		.list_title{
+			width:78px;
+			line-height:40px;
+		}
+		.list_title1{
+			width:45px;
+			line-height:40px;
+			margin-left:10px;
+		}
+	}
+}
+
+.tableList{
+	width:100%;
+	// border-bottom:1px solid #ccc;
+	.tblist{
+		.houseTbody{
+			display: block;
+			overflow:hidden;
+			// height:600px;
+			tr{
+				border-bottom:1px solid #ebeef5;
+				td{
+					display:inline-block;
+					vertical-align:middle;
+					overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+					text-align:center;
+					width:120px;
+					padding:12px 0;
+				}
+			}
+		}
+		th{
+			display:inline-block;
+			vertical-align:middle;
+			width:120px;
+			height:50px;
+			line-height:50px;
+			text-align:center;
+		}
+	}
+} 
+
+
+

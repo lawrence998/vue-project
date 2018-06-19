@@ -1,0 +1,62 @@
+.flex-container {
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+   -webkit-align-items: center;
+   background-color:#F3F2F2;
+    
+    .top{
+        height:2.28rem;
+        margin-bottom:0;
+        font-size:0.426667rem;
+        line-height:2.28rem;
+        text-align:center;
+        width:10.0rem;border-bottom:1px solid #ccc;
+        position:relative;
+        background-color:#fff;
+        .jt{position:absolute;left:0.666667rem;top:0.5rem;width:0.44rem;height:0.6rem;background:url(../../assets/img/house/jt.png) no-repeat;}
+    }
+
+    .housemsg{height:2.666667rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;
+        
+        .houseimg{display:inline-block;width:215px;padding:0.24rem 0.24rem;
+            
+            .houseimg2{width:2.666667rem;height:1.76rem;margin:0;}
+
+        }
+        .bt{width:4.826667rem;color:#000;text-align:left;margin-left:0.8rem;margin-top:0.44rem;font-size:0.36rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+        .jg{height:0.6rem;text-align:left;margin-left:0.8rem;line-height:0.6rem;font-size:0.4rem;color:red;}
+
+    }
+    .landlady{height:1.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.4rem;line-height:1.44rem;padding-left:0.24rem;}
+    .landtel{height:1.253333rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.4rem;line-height:1.253333rem;padding-left:0.24rem;}
+    .landwc{height:1.253333rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;margin-bottom:0.213333rem;font-size:0.4rem;line-height:1.253333rem;padding-left:0.24rem;}
+    .houseadd{height:2.746667rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;margin-bottom:0.213333rem;font-size:0.4rem;line-height:2.746667rem;padding-left:0.24rem;}
+    .checkin{height:2.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.4rem;line-height:0.7rem;padding-left:0.24rem;}
+    .allPrice{height:1.44rem;width:10.0rem;border-bottom:1px solid #ccc; background-color:#fff;font-size:0.4rem;line-height:1.44rem;padding-left:0.24rem;
+        
+        .zjq{margin-right:0.24rem;color:red;font-size:0.4rem;}
+
+    }
+    .anniu{height:1.44rem;width:10.0rem;line-height:1.44rem;text-align:right;
+        background-color:#fff;
+
+        .span1{display:inline-block;text-align:center;border:1px solid #ccc;line-height:0.826667rem;height:0.826667rem;width:2.12rem;margin-right:0.293333rem;border-radius:0.2rem;font-size:0.333333rem;}
+    }
+}
+
+
+.flex-container2{
+   .top{
+        height:2.28rem;
+        margin-bottom:0;
+        font-size:0.426667rem;
+        line-height:2.28rem;
+        text-align:center;
+        width:10.0rem;border-bottom:1px solid #ccc;
+        position:relative;
+        background-color:#fff;
+             .jt{position:absolute;left:0.666667rem;top:0.5rem;width:0.44rem;height:0.6rem;background:url(../../assets/img/house/jt.png) no-repeat;}
+    }
+    .no-order{width:2.666667rem;height:3.333333rem;margin:6.666667rem auto;}
+}

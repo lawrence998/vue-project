@@ -1,0 +1,37 @@
+*{margin:0;padding:0;}
+.sxComponent{width:95%;margin:0 auto;
+    .p1,.p2,.p3,.p4,.p5,.p6{font-size:0.48rem;line-height:1.266667rem;}
+    .fylx{border:2px solid #D5D5D5;border-bottom:none;
+        li{font-size:32px;line-height:1.326667rem;border-bottom:2px solid #D5D5D5;
+            span{padding-left:100px;}
+            input{display:inline-block;width:40px;height:40px;float:right;margin:30px;}
+        }
+    }
+    .add{border:2px solid #D5D5D5;height:1.266667rem;overflow:hidden;
+        span{display:block;float:left;height:1.266667rem;width:15%;text-align:center;font-size:1.033333rem;line-height:1.033333rem;}
+        p{float:left;width:70%;height:1.266667rem;font-size:40px;text-align:center;line-height:1.266667rem;}
+    }
+    .price{display:block;width:100%;height:1.133333rem;text-align:center;font-size:28px;}
+    .fj{
+        div{width:100%;height:1.266667rem;border:2px solid #D5D5D5;overflow:hidden;border-bottom:none;
+            >span{display:block;float:left;width:15%;height:100%;line-height:80px;font-size:1.033333rem;text-align:center;}
+            p{width:70%;float:left;height:1.266667rem;overflow:hidden;text-align:center;font-size:0.413333rem;line-height:1.266667rem;
+                span{height:100%;line-height:100px;font-size:0.40rem;text-align:center;}
+            }
+        }
+        div:last-child{border:2px solid #D5D5D5;}
+    }
+    .facility{margin-bottom:0.263333rem;}
+    .ent{margin:0 auto;height:1.266667rem;text-align:center;line-height:1.266667rem;color:white;background-color:red;font-size:0.413333rem;}
+    .filters{width:95%;margin:0 auto;
+        img{width:100%;height:6.633333rem;}
+        p{font-size:0.24rem;
+
+            span{font-size:0.373333rem;height:0.533333rem;line-height:0.733333rem;}
+        }
+    }
+    
+}
+
+
+

@@ -1,0 +1,112 @@
+
+
+.youyu{
+	width:400px;
+	height:150px;
+	text-align:center;
+	padding-top:40px;
+	box-sizing:border-box;
+	font-size:30px;
+	font-weight:700;
+	font-family:'微软雅黑';
+	color:#606266;
+	padding-left:50px;
+	// margin:120px auto;
+	
+}
+
+.el-form{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	.el-input{
+		width:16.666667rem;
+		input{
+			height:2.3rem;
+		}
+	}
+	.el-button{
+		display:block;
+		width:7.666667rem;
+		height:2.3rem;
+		margin-left:60px;
+		span{
+			font-size:0.9rem;
+			line-height:0.9rem;
+		}
+		
+	}
+}
+
+.common_set{
+	.commen_center{
+		width:70%;
+		margin:0 auto;
+		display:flex;
+		flex-direction:row;
+		>span{
+			flex:1;
+			display:inline-block;
+			font-size:0.82rem;
+			padding:10px 0;
+			text-align:center;
+			color:#606266;
+		}
+		.remberPaw{
+			ins{
+				display:inline-block;
+				width:0.8rem;
+				height:0.8rem;
+				vertical-align:middle;
+				border:1px solid #333;
+			}
+			em{
+				display:inline-block;
+				font-weight:200 !important;
+				vertical-align:middle;
+				padding-bottom:0.063333rem;
+			}
+		}
+	}
+}
+
+.el-form-item__content{
+	.el-icon-circle-check{
+		color:#42b983;
+	}
+	.checkLogin{
+		display:block;
+		position:absolute;
+		top:50%;
+		right:10px;
+		transform:translateY(-50%);
+	}
+
+	.el-icon-circle-close:before{
+		color:red;
+	}
+	.checkfailure{
+		display:block;
+		position:absolute;
+		top:50%;
+		right:10px;
+		transform:translateY(-50%);
+	}
+}
+
+.remberPaw{
+	ins{
+		position:relative;
+		.remberPassword{
+		  display:block;
+		  position:absolute;
+		  left:-20%;
+		  top:-10%;
+		}
+		.el-icon-check{
+			font-weight:600;
+			color:red;
+		}
+	}
+}
