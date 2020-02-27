@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     publicPath: './dist/',
     filename: 'build.js'
   },
@@ -88,7 +88,177 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
+    proxy: {
+      '/getRecommend': {
+        target: 'http://localhost:1200/getRecommend',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/getRecommend': ''
+        }
+      },
+      '/youlike': {
+        target: 'http://localhost:1200/youlike',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/youlike': ''
+        }
+      },
+      '/hotcity': {
+        target: 'http://localhost:1200/hotcity',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/hotcity': ''
+        }
+      },
+      '/houseImg': {
+        target: 'http://localhost:1200/houseImg',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/houseImg': ''
+        }
+      },
+      '/houseImg2': {
+        target: 'http://localhost:1200/houseImg2',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/houseImg2': ''
+        }
+      },
+      '/getCity': {
+        target: 'http://localhost:1200/getCity',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/getCity': ''
+        }
+      },
+      '/sx': {
+        target: 'http://localhost:1200/sx',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/sx': ''
+        }
+      },
+      '/lowPrice': {
+        target: 'http://localhost:1200/lowPrice',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/lowPrice': ''
+        }
+      },
+      '/highPrice': {
+        target: 'http://localhost:1200/highPrice',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/highPrice': ''
+        }
+      },
+      '/goodPing': {
+        target: 'http://localhost:1200/goodPing',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/goodPing': ''
+        }
+      },
+      '/rander': {
+        target: 'http://localhost:1200/rander',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/rander': ''
+        }
+      },
+      '/getUsername': {
+        target: 'http://localhost:1200/getUsername',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/getUsername': ''
+        }
+      },
+      '/LoginIn': {
+        target: 'http://localhost:1200/LoginIn',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/LoginIn': ''
+        }
+      },
+      '/Login': {
+        target: 'http://localhost:1200/Login',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/Login': ''
+        }
+      },
+      '/orderlist': {
+        target: 'http://localhost:1200/orderlist',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/orderlist': ''
+        }
+      },
+      '/orderpage': {
+        target: 'http://localhost:1200/orderpage',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/orderpage': ''
+        }
+      },
+      '/qxdd': {
+        target: 'http://localhost:1200/qxdd',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/qxdd': ''
+        }
+      },
+      '/pay': {
+        target: 'http://localhost:1200/pay',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/pay': ''
+        }
+      },
+      '/DetailOrder': {
+        target: 'http://localhost:1200/DetailOrder',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/DetailOrder': ''
+        }
+      },
+      '/insertOrder': {
+        target: 'http://localhost:1200/insertOrder',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/insertOrder': ''
+        }
+      },
+      '/saleSan': {
+        target: 'http://localhost:1200/saleSan',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/saleSan': ''
+        }
+      },
+      '/product': {
+        target: 'http://localhost:1200/product',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/product': ''
+        }
+      },
+      '/getImg': {
+        target: 'http://localhost:1200/getImg',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/getImg': ''
+        }
+      },
+      '/addUser': {
+        target: 'http://localhost:1200/addUser',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/addUser': ''
+        }
+      }
+    }
   },
   performance: {
     hints: false

@@ -3,11 +3,25 @@ var mysql = require('mysql');
 var db = mysql.createPool({
     connectionLimit: 10,
     host: "localhost",
+    port: '3306',
     user: 'root',
-    password: 'root',
-    database: 'minshu_database'
+    password: '123456',
+    database: 'test'
 })
 
+db.getConnection(function(err, connection) {
+    if(err) console.log('MySQL数据库建立连接失败。');
+    else{
+        console.log('数据库建立连接成功。');
+        connection.query( 'select * from user', function(err, data) {
+            if(err) console.log('查询数据操作失败。');
+            else{
+                console.log('查询数据成功！');
+                // db.end();
+            }
+        });
+    }
+});
 
 
 module.exports = {

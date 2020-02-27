@@ -3,15 +3,15 @@ import axios from 'axios'
 import qs from 'qs'
 
 
-const _Url = 'http://www.floats.top:1200/';
+const _Url = '';
 
 
 function getUrl(url){
-	console.log(url);
 	//判断传入的url路径是否是http开头
 	if(url.startsWith("http") || url.startsWith("https")){
 		return url;
 	}
+	console.log('wanshe', url);
 	//不是http开头，进行路径的拼接
 	return `${_Url}${url}`;
 }
@@ -27,7 +27,9 @@ const Http = {
 			if(res1){
 				resolve (res1);
 			}else{
+				console.log('error', error)
 				reject (error);
+
 			}
 		})
 	}),

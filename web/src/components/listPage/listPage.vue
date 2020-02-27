@@ -94,7 +94,7 @@
 		computed:{
 			get_msg:{
 				get:function(){
-					console.log(11555);
+					console.log(1155511);
 					return this.$store.getters.getmsg_get;
 				}
 			}

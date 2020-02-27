@@ -172,7 +172,7 @@
                     var facility=window.localStorage.getItem('facility');
                     var str = house=house.length>0 ? house : facility=facility.length>0 ? facility : '';
                     console.log(house,facility);
-                    axios.get('http://www.floats.top:1200/sx',{params:{date:str}}).then(response=>{
+                    axios.get('localhost:1200/sx',{params:{date:str}}).then(response=>{
                         this.dataset=response.data.data.results;
                         this.sxss=false;
                         this.filters=true;

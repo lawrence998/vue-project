@@ -35,7 +35,7 @@
                 var highPrice=this.dataset[2];
                 var goodPing=this.dataset[3];
                 if(yuan.innerText==lowPrice){
-                    axios.get('http://www.floats.top:1200/lowPrice',{params:{date:"lowPrice"}}).then(response=>{
+                    axios.get('localhost:1200/lowPrice',{params:{date:"lowPrice"}}).then(response=>{
                         console.log(response)
                         var dates=response.data.results;
                         this.dates=dates;
@@ -65,7 +65,7 @@
                
                 //高价排序排序
                 if(yuan.innerText==highPrice){
-                    axios.get('http://www.floats.top:1200/highPrice',{params:{date:"highPrice"}}).then(response=>{
+                    axios.get('localhost:1200/highPrice',{params:{date:"highPrice"}}).then(response=>{
                         var dates=response.data.results;
                         this.dates=dates;
                         var all =document.querySelector('.pxComponent');
@@ -97,7 +97,7 @@
                 // var goodPing=this.dataset[3];
                 // if(kinds==lowPrice){
                 // //排序 低价优先
-                //     axios.get('http://www.floats.top:1200/px',{params:{date:''}}).then(response=>{
+                //     axios.get('localhost:1200/px',{params:{date:''}}).then(response=>{
                 //         console.log(response);
                 //     })
                 // }else if(kinds==highPrice){
@@ -111,7 +111,7 @@
                 //好评 排序
                 
                 if(yuan.innerText==goodPing){
-                    axios.get('http://www.floats.top:1200/goodPing',{params:{date:"goodPing"}}).then(response=>{
+                    axios.get('localhost:1200/goodPing',{params:{date:"goodPing"}}).then(response=>{
                         var dates=response.data.results;
                         this.dates=dates;
                         var all =document.querySelector('.pxComponent');
@@ -139,7 +139,7 @@
                 //默认（我这里用的是随机排序）排序
                 
                 if(yuan.innerText==render){
-                    axios.get('http://www.floats.top:1200/rander',{params:{date:"rander"}}).then(response=>{
+                    axios.get('localhost:1200/rander',{params:{date:"rander"}}).then(response=>{
                         var dates=response.data.results;
                         this.dates=dates;
                         var all =document.querySelector('.pxComponent');
