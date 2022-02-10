@@ -37,7 +37,7 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.8",
     "file-loader": "^1.1.4",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^6.0.6",
     "velocity": "^0.7.2",
     "velocity-animate": "^1.5.1",
